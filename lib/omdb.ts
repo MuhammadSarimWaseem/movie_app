@@ -12,6 +12,7 @@ export interface MovieItem {
     imdbRating?: string;
     Genre?: string;
     Plot?: string;
+    Director?: string;
 }
 
 export interface SearchResponse {

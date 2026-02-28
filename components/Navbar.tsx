@@ -55,14 +55,6 @@ export default function Navbar() {
               <span className="hidden sm:inline">Favorites</span>
             </Link>
 
-            <button 
-              onClick={toggleDarkMode}
-              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-              aria-label="Toggle dark mode"
-            >
-              {isDark ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
-
             <div className="pl-2 border-l border-gray-200 dark:border-gray-700 h-6 flex items-center">
               <UserButton afterSignOutUrl="/sign-in" />
             </div>
